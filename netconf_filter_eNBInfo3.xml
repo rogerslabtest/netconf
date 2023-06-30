@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><data xmlns="urn:ietf:params:xml:ns:netconf:base:1.0" xmlns:nc="urn:ietf:params:xml:ns:netconf:base:1.0">
+        <ManagedElement xmlns="urn:com:ericsson:ecim:ComTop">
+            <managedElementId>TLAB06X</managedElementId>
+            <ENodeBFunction xmlns="urn:com:ericsson:ecim:Lrat">
+                <eNodeBFunctionId>1</eNodeBFunctionId>
+                <AnrFunction>
+                    <anrFunctionId>1</anrFunctionId>
+                    <AnrFunctionEUtran>
+                        <anrFunctionEUtranId>1</anrFunctionEUtranId>
+                        <anrUesThreshInterFMax>0</anrUesThreshInterFMax>
+                        <anrUesThreshInterFMin>0</anrUesThreshInterFMin>
+                        <anrUesThreshInterFDecr>10</anrUesThreshInterFDecr>
+                        <anrUesThreshInterFIncrHo>100</anrUesThreshInterFIncrHo>
+                        <anrUesThreshInterFIncrAnr>20</anrUesThreshInterFIncrAnr>
+                        <anrInterFreqState>ACTIVATED</anrInterFreqState>
+                        <anrIntraFreqState>ACTIVATED</anrIntraFreqState>
+                        <anrUesEUtraIntraFDecr>10</anrUesEUtraIntraFDecr>
+                        <cellAddRsrpThresholdEutran>-1100</cellAddRsrpThresholdEutran>
+                        <anrUesEUtraIntraFIncrHo>100</anrUesEUtraIntraFIncrHo>
+                        <x2SetupPolicy>true</x2SetupPolicy>
+                        <cellAddRsrqThresholdEutran>-1920</cellAddRsrqThresholdEutran>
+                        <anrUesEUtraIntraFMin>0</anrUesEUtraIntraFMin>
+                        <anrUesEUtraIntraFMax>0</anrUesEUtraIntraFMax>
+                        <hoAllowedEutranPolicy>true</hoAllowedEutranPolicy>
+                        <anrUesEUtraIntraFIncrAnr>20</anrUesEUtraIntraFIncrAnr>
+                        <lbCellOffloadCapacityPolicy>1000</lbCellOffloadCapacityPolicy>
+                        <anrEutranInterFMeasReportMax>100</anrEutranInterFMeasReportMax>
+                        <anrEutranInterFMeasReportMin>5</anrEutranInterFMeasReportMin>
+                        <anrEutranInterFMeasReportIncr>10</anrEutranInterFMeasReportIncr>
+                        <anrEutranInterFMeasReportDecr>1</anrEutranInterFMeasReportDecr>
+                        <acquirePlmnIdListEnabled>false</acquirePlmnIdListEnabled>
+                    </AnrFunctionEUtran>
+                </AnrFunction>
+            </ENodeBFunction>
+        </ManagedElement>
+    </data>

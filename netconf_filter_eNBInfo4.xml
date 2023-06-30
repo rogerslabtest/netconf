@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><data xmlns="urn:ietf:params:xml:ns:netconf:base:1.0" xmlns:nc="urn:ietf:params:xml:ns:netconf:base:1.0">
+        <ManagedElement xmlns="urn:com:ericsson:ecim:ComTop">
+            <managedElementId>TLAB06X</managedElementId>
+            <networkManagedElementId>TLAB06X</networkManagedElementId>
+            <ENodeBFunction xmlns="urn:com:ericsson:ecim:Lrat">
+                <eNodeBFunctionId>1</eNodeBFunctionId>
+                <eNBId>41061</eNBId>
+            </ENodeBFunction>
+        </ManagedElement>
+    </data>
